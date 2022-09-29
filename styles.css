@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    /*kutulardan taşmasınlar diye*/
+}
+
+.kapsayici {
+
+    background-color: white;
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+
+
+.playmenu {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 50px;
+    /*eklediğim icon boyu*/
+    color: rgba(218, 30, 30, 0.945);
+    /*iconun rengini değiştirmek için kullandım*/
+    gap: 10%;
+    /*kutular arası boşluk*/
+
+}
+
+.sag {
+    width: 20px;
+    /*icon boyutları*/
+    height: 20px;
+
+
+}
+
+
+
+.sol {
+
+    width: 20px;
+    height: 20px;
+
+
+
+}
+
+.alt {
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 1;
+    /*sayfa küçüldüğünde alt öğeleri küçülsün*/
+    text-align: center;
+    align-items: baseline;
+
+
+}
+
+.yazi {
+
+    width: 70px;
+    height: 20px;
+
+
+}
+
+.yol {
+    background-color: rgb(202, 194, 194);
+    flex-grow: 2;
+    /*boşluklardan yararlanıp en çok bu kutu genişlesin*/
+    border-radius: 12px;
+}
+
+.yol2 {
+    background-color: rgba(218, 30, 30, 0.705);
+    width: 30%;
+    height: 10px;
+    border-radius: 12px;
+
+
+}
+
+.yazi2 {
+
+    width: 70px;
+    height: 20px;
+}
